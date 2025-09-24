@@ -1,0 +1,13 @@
+Lines for creating fork
+git clone https://github.com/Lauraleyao/qtm350-quiz01.git
+cd qtm350-quiz01
+touch commands.txt
+git checkout -b feature-update
+mkdir reports && touch reports/summary.md
+echo "This document provides a summary of the project updates." > reports/summary.md
+git add reports
+git commit -m "Add reports directory"
+touch reports/file{1,2,3}.txt
+mv data/raw-data.csv data/input-data.csv
+cp scripts/*.py scripts/backup/
+rm docs/documentation.md
