@@ -9,7 +9,7 @@ git commit -m "Add reports directory"
 touch reports/file{1,2,3}.txt
 mv data/raw-data.csv data/input-data.csv
 cp scripts/*.py scripts/backup/
-rm docs/documentation.md
+rm docs/documentation.md # i apply this line but my whole doc folder got deleted
 git add . && git commit -m "Update project files"
 echo "temp/
 dataset0?.csv" > .gitignore
